@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ccc2edd016.js" crossorigin="anonymous"></script>
-    <title>Git-cheat sheet</title>
+    <title>Git cheat sheet</title>
     <style>
         body{
             background: gray;
@@ -30,8 +30,11 @@
             color: green;
         }
         footer{
+            margin-bottom: 15px;
             text-align: center;
-            font-size: x-small;
+            font-size: 16px;
+            font-weight: bold;
+            color: blue;
             font-family: Arial, Helvetica, sans-serif;
         }
         em{
@@ -51,19 +54,19 @@
     <p>
         To set the user-name:<br> 
         <i>
-           <span>saddam@pop-os:~$</span> git config --global user.name "username"
+           <span>$</span> git config --global user.name "username"
         </i>
     </p>
     <p>
         To set the user-email:<br>
        <i>
-        <span>saddam@pop-os:~$</span>  git config --global user.email "useremail"
+        <span>$</span>  git config --global user.email "useremail"
        </i> 
     </p>
     <p>
         To enable colors of the command line input:<br>
        <i>
-        <span>saddam@pop-os:~$</span>  git config --global color.ui auto
+        <span>$</span>  git config --global color.ui auto
        </i> 
     </p>
 
@@ -77,13 +80,13 @@
     <p>
         To initialize existing directory:<br>
         <i>
-            <span>saddam@pop-os:~$</span>  git init
+            <span>$</span>  git init
         </i>
     </p>
     <p>
         To retrieve an entire repository from a hosted location via URL/SSH: <br>
         <i>
-            <span>saddam@pop-os:~$</span>  git clone [URL/SSH]
+            <span>$</span>  git clone [URL/SSH]
         </i>
     </p>
     
@@ -93,37 +96,37 @@
     <p>
         To show modified files, staged for next commit:<br>
         <i>
-            <span>saddam@pop-os:~$</span>  git status
+            <span>$</span>  git status
         </i> 
     </p>
     <p>
         To add a file:<br>
         <i>
-            <span>saddam@pop-os:~$</span>  git add [file name]
+            <span>$</span>  git add [file name]
         </i> 
     </p>
     <p>
         To unstage a file:<br>
         <i>
-            <span>saddam@pop-os:~$</span>  git reset [file name]
+            <span>$</span>  git reset [file name]
         </i> 
     </p>
     <p>
         To show the difference what is changed but not staged:<br>
         <i>
-            <span>saddam@pop-os:~$</span>  git diff
+            <span>$</span>  git diff
         </i> 
     </p>
     <p>
         To show the difference what is staged but not committed:<br>
         <i>
-            <span>saddam@pop-os:~$</span>  git diff --staged
+            <span>$</span>  git diff --staged
         </i> 
     </p>
     <p>
         To commit your staged files:<br>
         <i>
-            <span>saddam@pop-os:~$</span>  git commit -m "your message"
+            <span>$</span>  git commit -m "your message"
         </i>
     </p>
 
@@ -137,34 +140,70 @@
     <p>
         To create a new branch: <br>
         <i>
-            <span>saddam@pop-os:~$</span>  git branch [branch name]
+            <span>$</span>  git branch [branch name]
         </i>
     </p>
     <p>
         To list branches. a* will appear next to the current active branch: <br>
         <i>
-            <span>saddam@pop-os:~$</span>  git branch
+            <span>$</span>  git branch
         </i>
     </p>
     <p>
         Switch to another branch and check it out into working directory: <br>
         <i>
-            <span>saddam@pop-os:~$</span>  git checkout
+            <span>$</span>  git checkout
         </i>
     </p>
     <p>
         To merge specified branch's history into the current one: <br>
         <i>
-            <span>saddam@pop-os:~$</span>  git merge [branch name]
+            <span>$</span>  git merge [branch name]
         </i>
     </p>
     <p>
         To show all commits: <br>
         <i>
-            <span>saddam@pop-os:~$</span>  git log
+            <span>$</span>  git log
         </i>
     </p>
 
+    <hr>
+    <h3>
+        <u>
+            Sharing and Updating Projects:
+        </u>
+    </h3>
+    <p>
+        To push changes to remote repository: <br>
+        <i>
+            <span>$</span> git push
+        </i>
+    </p>
+    <p>
+        To push a branch to remote repository: <br>
+        <i>
+            <span>$</span> git push origin [branch name]
+        </i>
+    </p>
+    <p>
+        To delete a remote branch: <br>
+        <i>
+            <span>$</span> git push origin --delete [branch name]
+        </i>
+    </p>
+    <p>
+        To update local repository to the latest commit: <br>
+        <i>
+            <span>$</span> git pull
+        </i>
+    </p>
+    <p>
+        To pull changes from remote repository: <br>
+        <i>
+            <span>$</span> git pull origin [branch name]
+        </i>
+    </p>
     <hr>
     <footer> Assignment # 1 submitted by: <em>Saddam Hussain</em> <i id="github" class="fa-brands fa-github"></i>&nbsp;<a href="https://github.com/emalgari" target="_blank">https://github.com/emalgari</a> </footer>
 </div>
