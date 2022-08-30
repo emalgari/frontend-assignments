@@ -31,6 +31,9 @@ nav ul{
 nav ul a{
     text-decoration: none;
 }
+nav ul a, #icon:hover{
+    color: lightslategray;
+}
 header nav ul li a #icon{
     color: blue;
 }
