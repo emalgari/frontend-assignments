@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/********** Navigation bar start *************/
+header{
+    height: 70px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+}
+header .logo{
+    margin-left: 20px;
+    color: darkorange;
+}
+
+nav{
+    display: flex;
+    margin-right: 40px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 120px; 
+}
+nav ul a{
+    text-decoration: none;
+}
+header nav ul li a #icon{
+    color: blue;
+}
+/********** Navigation bar end ******************/
+
+
+/********* body background color ********/
+body{
+    background-color: white;
+}
+/********* body background color end ********/
+
+
+/********** Heading start *************/
+h1{
+    margin: 40px auto 40px auto;
+    text-align: center;
+    color: darkorange;
+}
+/********** Heading end *************/
+
+
+/********** Main/section part start *************/
+.main, section{
+    margin: auto 15% auto 15%;
+    line-height: 150%;
+}
+.main{
+    height: 500px;
+}
+section{
+    height: fit-content;
+}
+section p i{
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background: black;
+}
+span{
+    color: green;
+}
+em{
+    font-weight: bold;
+}
+/********** Main/section part end *************/
+
+/********** Footer  *************/
+footer{
+    width: 100%;
+    height: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    font-size: small;
+    color:rgb(9, 9, 161);
+    text-align: center;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
+/********** Footer end *************/
+
+
